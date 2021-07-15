@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  font-family: poppins;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+  /* ----Copa america part ----*/
+
+  header .container .copa {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    padding-bottom: 60px;
+  }
+  header .container .copa .copa-left-side{
+    width: 55%;
+  }
+  header .container .copa .copa-left-side a {
+    padding: 8px 30px;
+    background-color: crimson;
+    color: white;
+    border: 1px solid crimson;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    transition: all 0.4s ease;
+  }
+  header .container .copa .copa-left-side a i {
+    margin-left: 10px;
+  }
+  header .container .copa .copa-left-side a:hover {
+    background-color: transparent;
+    color: crimson;
+  }
+  header .container .copa .copa-left-side h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  header .container .copa .copa-right-side {
+    width: 45%;
+  }
+    
+  header .container .copa .copa-right-side .image img {
+    width: 100%;
+    animation: rotation 15s ease-in-out infinite;
+  }
+  @keyframes rotation {
+    100% {
+      transform: rotate(15deg);
+    }
+    0% {
+      transform: rotate(0deg);
+    }
+
+    .players {
+      margin-top: 100px;
+    }
+    .players-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .players-list .player {
+      width: 27%;
+      box-shadow: 0px 0px 10px rgb(214, 240, 245);
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px;
+      height: 450px;
+    }
+    
+    .players-list .player img {
+      width: 100%;
+      border-radius: 10px;
+    }
+      color: #3c3c3c;
+      margin-top: 10px;
+    }
+    .players-list .player .player-creation p {
+      font-size: 16px;
+      color: #3c3c3c;
+      margin-top: 10px;
+    }
